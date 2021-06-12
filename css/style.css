@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "myriad";
+    src: url("../fonts/Myriad_Pro_Semibold.ttf");
+}
+
+@font-face {
+    font-family: "myriadregular";
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+h2,h4{
+    font-family: 'myriadregular';
+}
+
+.navbar{
+    background-color: #7A6D60;
+}
+.navbar a{
+    color:#fff !important;
+    font-family: 'myriad';
+}
+
+
+.title1{
+    margin: 50px 0 50px 0;
+}
+
+.seccion2{
+    padding: 50px 0;
+}
+
+.seccion2 h4{
+    color: white;
+}
+
+.seccion2 img{
+    width: 70px;
+}
+
+.seccion3{
+    padding: 50px 0;
+}
+.seccion3 h2 span{
+    font-weight: bold;
+}
+
+.seccion3 h3{
+    color: #7A6D60;
+    font-size: 25px;
+    font-weight: 400;
+}
+.azul{
+    background-color: #1A3966;
+}
+.color1{
+    color: #B28C60;
+}
+
+.gris{
+    background-color: #EEE9E5;
+}
+.carousel{
+    padding: 0;
+}
