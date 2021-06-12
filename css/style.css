@@ -45,12 +45,51 @@ h2,h4{
 }
 
 .seccion3 h3{
-    color: #7A6D60;
+    color: #606060;
     font-size: 25px;
     font-weight: 400;
 }
+
+.seccion4 h4{
+    font-weight: bold;
+    color: #606060;
+}
+.seccion4 p{
+    color: #606060;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.seccion4 img{
+    width: 70px;
+}
+
+.seccion6{
+    padding: 50px 0;
+}
+
+.seccion6 img{
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.seccion7{
+    padding: 50px 0;
+}
+
+.seccion7 span{
+    font-weight: bold;
+}
+
+.seccion7 a{
+    color: white;
+    font-size: 22px;
+}
 .azul{
     background-color: #1A3966;
+    color: white;
 }
 .color1{
     color: #B28C60;
