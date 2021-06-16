@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
 
     <title>Itau</title>
   </head>
@@ -94,31 +94,31 @@
           <div class="row">
               <p>Selecciona una tarjeta para ver sus beneficios</p>
               <div class="col">
-                  <figure class="card1 card-active">
+                  <figure id="card1" class="tarj card-active" onclick="tarjetas(this.id)">
                     <img src="./img/card1.png" alt="">
                   </figure>
                   <h3>Mastercard <br>Empresarial</h3>
               </div>
               <div class="col">
-                <figure class="card2">
+                <figure id="card2" class="tarj" onclick="tarjetas(this.id)">
                   <img src="./img/card2.png" alt="">
                 </figure>
                 <h3>Mastercard <br>Corporativa</h3>
               </div>
               <div class="col">
-                <figure class="card3">
+                <figure id="card3" class="tarj" onclick="tarjetas(this.id)">
                   <img src="./img/card3.png" alt="">
                 </figure>
                 <h3>Corporate <br>Black</h3>
               </div>
               <div class="col">
-                <figure class="card4">
+                <figure id="card4" class="tarj" onclick="tarjetas(this.id)">
                   <img src="./img/card4.png" alt="">
                 </figure>
                 <h3>Cuenta <br>Administrativa</h3>
               </div>
               <div class="col">
-                <figure class="card5">
+                <figure id="card5" class="tarj" onclick="tarjetas(this.id)">
                   <img src="./img/card5.png" alt="">
                 </figure>
                 <h3>Cuenta <br>Central Azul</h3>
@@ -126,7 +126,7 @@
           </div>
       </div>
       <div class="container seccion4">
-        <div class="row card1">
+        <div id="card1-info"class="infocard row">
           <div class="col-6">
             <figure>
               <img src="./img/assets-23.png" alt="">
@@ -170,7 +170,10 @@
               <p>Cobertura por pérdidas por uso<br>indebido de la tarjeta por parte de<br>los empleados.</p>
           </div>
         </div>
-        <div class="row card2 hide">
+        <div id="card2-info"class="infocard row hide">
+          2
+        </div>
+        <div id="card3-info" class="infocard row hide">
           <div class="col-6">
             <figure>
               <img src="./img/assets-23.png" alt="">
@@ -214,137 +217,15 @@
               <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
           </div>
         </div>
-        <div class="row card3 hide">
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-23.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-24.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-25.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-26.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-27.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-28.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
+        <div id="card4-info" class="infocard row hide">
+          <p>La tarjeta de crédito cuenta Administrativa Mastercard está diseñada para ayudarte a centralizar el pago de servicios administrativos.</p>
+          <p>Te permite realizar pagos de forma presencial y no presencial (Telefónica o por correo) a las compañías con las que contratas servicios, consolidando  el volumen por pagar  y facilitando la admnistración de gastos.</p>
+          <p>Esta tarjeta no tiene cuota de manejo y puedes financiar compras hasta por 45 días sin costo financiero para tu empresa y hasta 36 meses con costo de financiación.</p>
         </div>
-        <div class="row card4 hide">
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-23.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-24.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-25.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-26.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-27.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-28.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-        </div>
-        <div class="row card5 hide">
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-23.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-24.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-25.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-26.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-27.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
-          <div class="col-6">
-            <figure>
-              <img src="./img/assets-28.png" alt="">
-            </figure>
-              <h4>Protección de Compras</h4>
-              <p>Reembolsos por robo o daño accidental de artículos comprados con la tarjeta Mastercard</p>
-          </div>
+        <div id="card5-info" class="infocard  row hide">
+          <p>La tarjeta de crédito cuenta Administrativa Mastercard está diseñada para ayudarte a centralizar el pago de servicios administrativos.</p>
+          <p>Te permite realizar pagos de forma presencial y no presencial (Telefónica o por correo) a las compañías con las que contratas servicios, consolidando  el volumen por pagar  y facilitando la admnistración de gastos.</p>
+          <p>Esta tarjeta no tiene cuota de manejo y puedes financiar compras hasta por 45 días sin costo financiero para tu empresa y hasta 36 meses con costo de financiación.</p>
         </div>
       </div>
     </div>
