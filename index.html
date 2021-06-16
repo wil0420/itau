@@ -25,7 +25,7 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Cambiarme a Mastercard</a>
+                        <a class="nav-link" onclick="openmodalnit()" aria-current="page" href="#!">Cambiarme a Mastercard</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Beneficios</a>
@@ -73,7 +73,7 @@
                 <div class="row">
                     <div class="col-6">
                         <figure>
-                          <img src="./img/check.png" alt="">
+                          <img src="./img/check.png" alt="" onclick="openmodalnit()">
                         </figure>
                         <h4>SI quiero cambiarme a<br>Mastercard y disfrutar<br> sus beneficios</h4>
                     </div>
@@ -352,7 +352,7 @@
 
     <div class="container-fluid seccion5">
         <div class="container">
-          <h2><span>Ahorra</span> con ofertas para ti y tú negocio</h2>
+          <h2><span><b>Ahorra</b></span> con ofertas para ti y tú negocio</h2>
           <div id="carouselExampleControlsNoTouching" class="carousel slide pt-5" data-bs-touch="false" data-bs-interval="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -379,29 +379,32 @@
       </div>
     </div>
 
-    <div class="container seccion6">
-      <div class="row">
-        <h2><span>Compra sin contacto</span> de manera rápida, segura y sin tener <br> que entregar la tarjeta.</h2>
-        <div class="col">
-          <figure>
-            <img src="./img/1.png" alt="">
-          </figure>
-          <p>Busca el símbolo de<br>Sin Contacto en el <br>punto de pago (POS)</p>
+    <div class="container-fluid seccion6">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <h2 class="pb-5 text-justify"><b>Compra sin contacto</b> de manera rápida, segura y sin tener que entregar la tarjeta.</h2>
+          <div class="col">
+            <figure>
+              <img src="./img/1.png" alt="">
+            </figure>
+            <p>Busca el símbolo de<br>Sin Contacto en el <br>punto de pago (POS)</p>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="./img/2.png" alt="">
+            </figure>
+            <p>Busca el símbolo de<br>Sin Contacto en el <br>punto de pago (POS)</p>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="./img/3.png" alt="">
+            </figure>
+            <p>Busca el símbolo de<br>Sin Contacto en el <br>punto de pago (POS)</p>
+          </div>
         </div>
-        <div class="col">
-          <figure>
-            <img src="./img/2.png" alt="">
-          </figure>
-          <p>Busca el símbolo de<br>Sin Contacto en el <br>punto de pago (POS)</p>
-        </div>
-        <div class="col">
-          <figure>
-            <img src="./img/3.png" alt="">
-          </figure>
-          <p>Busca el símbolo de<br>Sin Contacto en el <br>punto de pago (POS)</p>
-        </div>
+        <p class="mt-5">Para compras superiores a $100,000 es necesario ingresar tu PIN.</p>
       </div>
-    </div>
+   </div>
 
     <div class="container-fluid seccion7 azul">
       <div class="container">
@@ -439,7 +442,31 @@
         </div>
       </div>
     </div>
+      <!-- The Modal -->
+      <div id="nit" class="modal">
 
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"><img src="./img/close.png" style="width: 40px; float: right;" alt="" onclick="closemodalnit()"></span>
+          <p>Gracias por elegir Mastercard<br><br> Por favor ingresa tú número de NIT y muy pronto te enviaremos la nueva tarjeta de crédito Mastercard Itaú a la dirección que tienes registrada en el banco.</p>
+          <div class="row">
+            <div class="col-9"><input type="text" placeholder="Ingresa aquí tu nit" class="form-control"></div>
+            <div class="col-3"><button class="btn btn-primary">Enviar</button></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- The Modal -->
+      <div id="gracias" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"><img src="./img/close.png" style="width: 40px; float: right;" alt="" onclick="closemodal()"></span>
+          <p>Gracias por elegir Mastercard<br><br> Pronto recibirás tu nueva tarjeta de crédito Mastercard Itaú a la dirección que tienes registrada en el banco.</p>
+        </div>
+
+      </div>
     <footer class="container-fluid">
       <div class="row">
         <div class="col">
@@ -451,6 +478,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

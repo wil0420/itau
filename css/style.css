@@ -41,6 +41,7 @@ h2,h4{
 
 .seccion2 img{
     width: 70px;
+    cursor: pointer;
 }
 
 .seccion3{
@@ -102,6 +103,18 @@ h2,h4{
 
 .seccion6{
     padding: 50px 0;
+    color: #606060;
+    background-image: url("../img/copy.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+
+.seccion6 p{
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
 }
 
 .seccion6 img{
@@ -121,6 +134,7 @@ h2,h4{
 .seccion7 a{
     color: white;
     font-size: 22px;
+    width: auto;
 }
 
 .seccion8{
@@ -129,6 +143,9 @@ h2,h4{
 
 .seccion8 p{
     line-height: 17px;
+    color: #606060;
+}
+.seccion8 h2{
     color: #606060;
 }
 .azul{
@@ -160,3 +177,43 @@ footer img{
     display: block;
     padding: 30px;
 }
+
+/* Modal */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
