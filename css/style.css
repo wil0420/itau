@@ -23,6 +23,8 @@ h2,h4{
 
 .title1{
     margin: 50px 0 50px 0;
+    color: #606060;
+    font-size: 28px;
 }
 
 .seccion2{
@@ -46,23 +48,47 @@ h2,h4{
 
 .seccion3 h3{
     color: #606060;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
 
+.seccion3 figure{
+    cursor: pointer;
+}
+.seccion3 figure img{
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.card-active{
+    border: 3px solid #FF7500;
+    border-radius: 5px;
+}
+
+.seccion4{
+    padding: 50px 0;
+}
 .seccion4 h4{
     font-weight: bold;
     color: #606060;
+    font-size: 21px;
 }
 .seccion4 p{
     color: #606060;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
 }
 
 .seccion4 img{
     width: 70px;
+}
+
+.seccion5{
+    background-color: #786E62;
+    padding: 50px 0;
+    color: #ffffff;
 }
 
 .seccion6{
@@ -100,4 +126,8 @@ h2,h4{
 }
 .carousel{
     padding: 0;
+}
+
+.hide{
+    display: none;
 }
