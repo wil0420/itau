@@ -22,7 +22,9 @@ h2,h4{
     font-family: 'myriad';
 }
 
-
+#slidehead{
+    margin-top: 86px;
+}
 .title1{
     margin: 50px 0 50px 0;
     color: #606060;
@@ -123,6 +125,11 @@ h2,h4{
 
 .seccion8{
     padding: 50px 0;
+}
+
+.seccion8 p{
+    line-height: 17px;
+    color: #606060;
 }
 .azul{
     background-color: #1A3966;
