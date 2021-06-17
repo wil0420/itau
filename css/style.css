@@ -46,7 +46,7 @@ h2,h4{
     font-family: 'myriadregular';
 }
 
-#carouselExampleControls{
+#slidemobile, #slidedesktop{
     margin-top: 86px;
 }
 .title1{
@@ -294,7 +294,7 @@ footer img{
     display: none;
 }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
  /* Modal Content */
  .modal-content {
     width: 90%;
@@ -340,11 +340,24 @@ footer img{
     }
     .seccion3 figure {
         width: 110px;
+        margin: auto;
+    }
+    .seccion3 h3 {
+        text-align: center;
     }
     .desktop{
         display: none;
     }
     .mobile{
         display: block;
+    }
+
+    .btnslide {
+        width: 170px;
+        right: 10%;
+    }
+
+    .icons{
+        padding-left: 28px;
     }
   }

@@ -40,7 +40,7 @@
               </nav>
         </div>
         <div class="row desktop">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="slidedesktop" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                       <img src="./img/slide1.jpg" class="d-block w-100" alt="...">
@@ -55,18 +55,23 @@
                     <img src="./img/assets-15.png" class="btnslide" onclick="openmodalnit()">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#slidedesktop" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#slidedesktop" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
         </div>
         <div class="row mobile">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div id="slidemobile" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./img/slidemob1.jpg" class="d-block w-100" alt="...">
@@ -81,11 +86,11 @@
                   <img src="./img/assets-15.png" class="btnslide" onclick="openmodalnit()">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#slidemobile" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#slidemobile" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
@@ -386,13 +391,13 @@
             <figure>
               <img src="./img/2.png" alt="">
             </figure>
-            <p>Acerca tu tarjeta al POS</p>
+            <p>Acerca tu<br> tarjeta al<br> POS</p>
           </div>
           <div class="col-12 col-md-4 col-sm-12">
             <figure>
               <img src="./img/3.png" alt="">
             </figure>
-            <p>¡LISTO! tu pago esta realizado</p>
+            <p>¡LISTO!<br> tu pago esta<br> realizado</p>
           </div>
         </div>
         <p class="mt-5">Para compras superiores a $100,000 es necesario ingresar tu PIN.</p>
@@ -414,7 +419,7 @@
           <h2 class="text-center"><span class="color1"><b>En Itaú</b></span>, todo lo hacemos  por tu empresa</h2>
         </div>
       </div>
-      <div class="row justify-content-md-center pt-5">
+      <div class="row icons justify-content-md-center pt-5">
         <div class="col-12 col-md-4 col-sm-12">
             <div class="row justify-content-md-center">
               <div class="col-2"><img src="./img/assets-39.png" alt="" class="w-100"></div>
@@ -424,13 +429,13 @@
         <div class="col-12 col-md-4 col-sm-12">
           <div class="row justify-content-md-center">
             <div class="col-2"><img src="./img/assets-38.png" alt="" class="w-100"></div>
-            <div class="col-6"><p>App<br>Itaú Empresas<br>Colombia</p></div>
+            <div class="col-6"><a href="https://play.google.com/store/apps/details?id=com.co.app.pj.latam&hl=en_US&gl=US" style="text-decoration: none;"><p>App<br>Itaú Empresas<br>Colombia</p></a></div>
         </div>
         </div>
         <div class="col-12 col-md-4 col-sm-12">
           <div class="row justify-content-md-center">
             <div class="col-2"><img src="./img/assets-37.png" alt="" class="w-100"></div>
-            <div class="col-6"><p>Línea telefónica<br><b>5818181</b> en Bogotá<br>o <b>018000512633</b><br>en el resto del país</p></div>
+            <div class="col-6"><p>Línea telefónica<br><b><a href="tel:0315818181" style="text-decoration: none; font-weight: 500;color: #606060;"> 5818181</a></b> en Bogotá<br>o <b><a href="tel:031018000512633" style="text-decoration: none; font-weight: 500;color: #606060;">018000512633</a></b><br>en el resto del país</p></div>
         </div>
         </div>
       </div>

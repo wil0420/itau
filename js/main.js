@@ -60,3 +60,11 @@ function closemodalreconsiderar(){
   }
 
 
+  var myCarousel = document.querySelector('#slidemobile')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 2000,
+  wrap: false,
+  circle: true,
+  touch:true
+})
+
