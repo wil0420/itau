@@ -282,3 +282,37 @@ footer img{
     text-decoration: none;
     cursor: pointer;
   }
+
+  .navbar-light .navbar-toggler {
+    color: rgb(255 255 255 / 55%);
+    border-color: rgba(0,0,0,.1);
+    background-color: white;
+    font-size: 16px;
+}
+
+
+  @media only screen and (max-width: 600px) {
+ /* Modal Content */
+ .modal-content {
+    width: 90%;
+  }
+
+  .btnadqui{
+      border: 1px solid white;
+  }
+
+  .navbar li {
+    padding: 2px;
+    }
+
+    .title1 {
+        font-size: 20px;
+    }
+    .seccion2{
+        text-align: center;
+    }
+
+    .cardsmob{
+        padding: 32px;
+    }
+  }
