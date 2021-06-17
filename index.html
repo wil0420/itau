@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-6">
                       <figure>
-                        <img src="./img/cancel.png" alt="">
+                        <img src="./img/cancel.png" alt="" onclick="openmodalreconsiderar()">
                       </figure>
                       <h4>NO quiero cambiarme a<br>Mastercard</h4>
                     </div>
@@ -424,16 +424,42 @@
 
       </div>
 
+            <!-- The Modal -->
+            <div id="nitgracias" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close"><img src="./img/close.png" style="width: 40px; float: right;" alt="" onclick="closemodalnitgracias()"></span>
+                <p>Gracias por tu confirmación. Tú actual tarjeta Itaú empresarial no sera reemplazada por la <span class="color1">La tarjeta  Empresarial Mastercard Itaú.</span><br>Por favor ingresa tú número de NIT.</p>
+                <div class="row">
+                  <div class="col-9"><input type="text" placeholder="Ingresa aquí tu nit" class="form-control nit"></div>
+                  <div class="col-3"><button class="btn btn-primary azul">Enviar</button></div>
+                </div>
+              </div>
+      
+            </div>
+
       <!-- The Modal -->
       <div id="gracias" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
-          <span class="close"><img src="./img/close.png" style="width: 40px; float: right;" alt="" onclick="closemodal()"></span>
+          <span class="close"><img src="./img/close.png" style="width: 40px; float: right;" alt="" onclick="closemodalgracias()"></span>
           <p>Gracias por elegir Mastercard<br><br> Pronto recibirás tu nueva tarjeta de crédito Mastercard Itaú a la dirección que tienes registrada en el banco.</p>
         </div>
 
       </div>
+
+            <!-- The Modal -->
+            <div id="reconsiderar" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close"><img src="./img/close.png" style="width: 40px; float: right;" alt="" onclick="closemodalreconsiderar()"></span>
+                <p>Te invitamos a reconsiderar tu decisión. Recuerda que este reemplazo no tiene costo para ti, pero si te ofrece <a href="" style="text-decoration: underline;">Nuevos beneficios</a></p>
+              </div>
+      
+            </div>
     <footer class="container-fluid">
       <div class="row">
         <div class="col">

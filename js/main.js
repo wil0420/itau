@@ -1,19 +1,37 @@
 var modalnit = document.getElementById("nit");
 var modalgracias = document.getElementById("gracias");
+var modalgraciasnit = document.getElementById("nitgracias");
+var reconsiderar = document.getElementById("reconsiderar");
 
 function openmodalnit(){
     modalnit.style.display = "block";
+}
+
+function openmodalreconsiderar(){
+    reconsiderar.style.display = "block";
 }
 
 function closemodalnit(){
     modalnit.style.display = "none";
 }
 
-window.onclick = function(event) {
+function closemodalnitgracias(){
+    modalgraciasnit.style.display = "none";
+}
+
+function closemodalgracias(){
+    modalgracias.style.display = "none";
+}
+
+function closemodalreconsiderar(){
+    reconsiderar.style.display = "none";
+}
+
+/* window.onclick = function(event) {
     if (event.target == modalnit) {
       modalnit.style.display = "none";
     }
-  }
+  } */
 
 
 
