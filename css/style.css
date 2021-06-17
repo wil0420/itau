@@ -308,8 +308,15 @@ footer img{
     .title1 {
         font-size: 20px;
     }
-    .seccion2{
-        text-align: center;
+    .seccion2 figure{
+        width: 30%;
+        float: left;
+    }
+
+    .seccion2 h4{
+        width: 70%;
+        float: left;
+        font-size: 20px;
     }
 
     .cardsmob{
