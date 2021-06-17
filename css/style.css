@@ -16,16 +16,20 @@ h2,h4{
     background-color: #7A6D60;
     position: fixed;
     z-index: 2;
-    box-shadow: -1px 6px 5px -2px rgba(0,0,0,0.48);
-    -webkit-box-shadow: -1px 6px 5px -2px rgba(0,0,0,0.48);
-    -moz-box-shadow: -1px 6px 5px -2px rgba(0,0,0,0.48);
+    box-shadow: -1px 8px 5px 0px rgba(0,0,0,0.21);
+    -webkit-box-shadow: -1px 8px 5px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: -1px 8px 5px 0px rgba(0,0,0,0.21);
+}
+
+.navbar li{
+    padding: 20px;
 }
 
 .btnslide{
     position: absolute;
     bottom: 10%;
     z-index: 1;
-    width: 200px;
+    width: 250px;
     right: 25%;
     cursor: pointer;
 }
@@ -39,7 +43,7 @@ h2,h4{
 }
 .navbar a{
     color:#fff !important;
-    font-family: 'myriad';
+    font-family: 'myriadregular';
 }
 
 #carouselExampleControls{
@@ -91,6 +95,11 @@ h2,h4{
     width: 100%;
 }
 
+.seccion3 h2{
+    color: #606060;
+    margin-bottom: 40px;
+}
+
 .card-active{
     border: 3px solid #FF7500;
     border-radius: 5px;
@@ -115,10 +124,18 @@ h2,h4{
     width: 70px;
 }
 
+.infocard div{
+    margin-bottom: 25px;
+}
 .seccion5{
     background-color: #786E62;
     padding: 50px 0;
     color: #ffffff;
+}
+
+.seccion5 h2{
+    font-size: 20px;
+    font-family: 'myriadregular';
 }
 
 .seccion6{
@@ -127,20 +144,19 @@ h2,h4{
     background-image: url("../img/copy.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-position-y: 95%;
 }
 
 
 .seccion6 p{
-    text-align: center;
-    font-size: 23px;
+    text-align: justify;
+    font-size: 20px;
     line-height: 30px;
+    font-weight: 400;
 }
 
 .seccion6 img{
     width: 100px;
-    margin: auto;
-    display: block;
 }
 
 .seccion7{
@@ -156,7 +172,9 @@ h2,h4{
     font-size: 22px;
     width: auto;
 }
-
+.seccion7 p{
+    font-size: 20px;
+}
 .seccion8{
     padding: 50px 0;
 }
@@ -167,6 +185,8 @@ h2,h4{
 }
 .seccion8 h2{
     color: #606060;
+    font-size: 20px;
+    font-weight: 400;
 }
 .azul{
     background-color: #1A3966;
@@ -237,7 +257,7 @@ footer img{
   .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    padding: 40px 20px 100px 20px;
     border: 1px solid #888;
     width: 40%;
   }
