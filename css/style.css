@@ -15,6 +15,7 @@ h2,h4{
 .navbar{
     background-color: #7A6D60;
     position: fixed;
+    top: 0;
     z-index: 2;
     box-shadow: -1px 8px 5px 0px rgba(0,0,0,0.21);
     -webkit-box-shadow: -1px 8px 5px 0px rgba(0,0,0,0.21);
@@ -340,10 +341,16 @@ footer img{
     }
     .seccion3 figure {
         width: 110px;
-        margin: auto;
     }
     .seccion3 h3 {
-        text-align: center;
+        text-align: left;
+    }
+
+    .seccion5 img{
+        width: 50% !important;
+        margin: auto;
+        display: block;
+        padding-bottom: 10px;
     }
     .desktop{
         display: none;
